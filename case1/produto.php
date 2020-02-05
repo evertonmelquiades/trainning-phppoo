@@ -5,7 +5,7 @@ require 'fabricante.php';
 
 class Produto {
     private $nome;
-    private $valor;
+        
     private $fabricante;
 
     public function __construct()

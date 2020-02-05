@@ -6,6 +6,7 @@ require 'conta.php';
 require 'contaCorrente.php';
 require 'contaInvestimento.php';
 require 'contaPoupanca.php';
+include 'contaPoupanca22.php';
 
 $c1 = new ContaCorrente("1234567890");
 $c2 = new ContaInvestimento("11111111111");

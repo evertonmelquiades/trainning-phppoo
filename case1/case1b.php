@@ -5,11 +5,12 @@ require 'produto.php';
 
 $p1 = new Produto();
 //$p1->nome = "aaaa"; // erro
-$p1->setNome("iPhone");
+$p1->setNome("Iphone");
 $p1->setValor(50);
 
+
 //var_dump($p1->nome); // erro
-var_dump($p1->getNome());
+//var_dump($p1->getNome());
 
 $f1 = new Fabricante();
 $f1->setNome("Apple");
