@@ -4,6 +4,7 @@ class Conta{
 
     private $id;
     protected $numero;
+    protected $documento;
     protected $responsaveLegal;
 
     public function setId(int $id){

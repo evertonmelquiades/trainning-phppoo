@@ -4,8 +4,9 @@
 require 'produto.php';
 
 $p1 = new Produto();
-#$p1->nome = "aaaa"; // erro
-$p1->setNome("aaaa");
+//$p1->nome = "aaaa"; // erro
+$p1->setNome("iPhone");
+$p1->setValor(50);
 
 //var_dump($p1->nome); // erro
 var_dump($p1->getNome());
@@ -14,7 +15,7 @@ $f1 = new Fabricante();
 $f1->setNome("Apple");
 
 $p1->setFabricante($f1);
-var_dump($p1);
+print_r($p1);
 
-echo "Fabricante: ", $p1->getFabricante()->getNome();
+//echo "Fabricante: ", $p1->getFabricante()->getNome();
 ?>

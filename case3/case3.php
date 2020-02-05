@@ -4,10 +4,9 @@
 
 require 'produto.php';
 
-$f1 = new Fabricante();
-$f1->setNome("Apple");
+$f1 = new Fabricante("Apple");
+
 
 $p1 = new Produto('Iphone', 5000, $f1);
 
-var_dump($p1);
-?>
+print_r($p1);
