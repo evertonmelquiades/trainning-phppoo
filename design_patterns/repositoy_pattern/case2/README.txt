@@ -1,0 +1,1 @@
+Inseir DTO para permanecer com propriedades privadas (get/set)
